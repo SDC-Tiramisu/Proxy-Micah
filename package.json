@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "proxy": "nodemon ./server.js"
+    "proxy": "nodemon ./server.js",
+    "stress": "artillery run stress.yml"
   },
   "repository": {
     "type": "git",
@@ -18,8 +19,10 @@
   },
   "homepage": "https://github.com/FEC3/options-proxy#readme",
   "dependencies": {
+    "artillery": "^1.6.0-29",
     "express": "^4.17.1",
-    "http-proxy": "^1.18.0",
+    "http-proxy-middleware": "^0.20.0",
+    "newrelic": "^6.2.0",
     "nodemon": "^2.0.2"
   }
 }
