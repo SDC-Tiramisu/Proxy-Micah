@@ -20,7 +20,7 @@
   "homepage": "https://github.com/FEC3/options-proxy#readme",
   "dependencies": {
     "artillery": "^1.6.0-29",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "http-proxy-middleware": "^0.20.0",
     "newrelic": "^6.2.0",
     "nodemon": "^2.0.2"
